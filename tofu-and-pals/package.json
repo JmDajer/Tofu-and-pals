@@ -1,0 +1,28 @@
+{
+  "name": "tofu-and-pals",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~6.1.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appUUID": "73d89184-f841-4508-a96a-87c1d98d646b",
+    "appType": "clockface",
+    "appDisplayName": "tofu-and-pals-clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}

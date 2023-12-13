@@ -1,0 +1,11 @@
+<svg>
+  <image href="images/sky-night.png" height="100%" width="100%"></image>
+  <image class="cat-image" href="images/Phoenix.png" height="96" width="96" x="50%-144" y="32" />
+  <image class="cat-image" href="images/Tofu.png" height="96" width="96" x="50%-44" y="32" />
+  <image class="cat-image" href="images/Harry.png" height="96" width="96" x="50%+48" y="32" />
+
+  <text id="clock-label" x="50%" y="50%" fill="black" font-size="64" font-family="System-Regular"
+    text-anchor="middle" text-length="20">00:00:00</text>
+
+  <text id="txtSteps" x="50%" y="50%"/>
+</svg>
